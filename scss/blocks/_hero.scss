@@ -1,0 +1,122 @@
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 677px;
+  background-color: #faf8f6;
+}
+
+.hero__text__container {
+  position: relative;
+
+  padding: 140px 85px;
+  width: 545px;
+  height: 396px;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    left: 34px;
+    top: 68px;
+    width: 101px;
+    height: 17px;
+
+    background-image: url(../img/Hero/Vector.svg);
+  }
+}
+
+.hero__inscription {
+  margin: 0;
+  color: #4a556c;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.32px;
+  opacity: 0.4;
+}
+
+.hero__title {
+  margin-top: 6px;
+  margin-bottom: 16px;
+  color: #333461;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: -0.72px;
+}
+
+.hero__text {
+  margin: 0;
+  color: #4a556c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.hero__img {
+  margin-top: 100px;
+  margin-right: 166px;
+  bottom: 100px;
+
+  transform: translate(0%, 26px);
+}
+
+.hero__img__before {
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 24px;
+
+  width: 237px;
+  height: 104px;
+
+  background: #fff;
+  box-shadow: 0px 16px 96px 0px rgba(111, 124, 144, 0.16);
+
+  img {
+    margin-right: 16px;
+    width: 56px;
+    height: 56px;
+  }
+
+  span {
+    color: #333461;
+    text-align: center;
+    font-family: $Kumbh;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+  }
+
+  p {
+    margin: 0;
+
+    color: #4a556c;
+    font-family: $Kumbh;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.12px;
+  }
+}
+
+.hero__text__before {
+}
+
+.hero__button {
+  width: 250px;
+  height: 42px;
+  margin-top: 16px;
+  padding: 9px 16px;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 130%;
+
+  border-radius: 10px;
+}
