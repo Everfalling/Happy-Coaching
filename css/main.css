@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Kumbh+Sans:wght@400;500;600;700;800&display=swap");
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 85px;
+  margin-right: 75px;
+}
+
+.header__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.header__links a {
+  text-decoration: none;
+  color: #4a556c;
+  font-family: Kumbh Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  letter-spacing: -0.3px;
+}
