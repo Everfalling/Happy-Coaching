@@ -178,3 +178,69 @@ a:hover {
   line-height: 130%;
   border-radius: 10px;
 }
+
+.introduction {
+  margin: 96px 150px 61px 150px;
+  min-height: 734px;
+}
+
+.introduction__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.introduction__title {
+  width: 492px;
+  margin: 0;
+  margin-top: 32px;
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.48px;
+}
+
+.introduction__text {
+  margin-right: 106px;
+  width: 468px;
+  color: #4a556c;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.introduction__text p {
+  margin-top: 0;
+}
+
+.introduction__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.introduction__items div {
+  width: 300px;
+  padding: 40px;
+}
+.introduction__items h3 {
+  margin: 32px 0 16px 0;
+  color: #041434;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.72px;
+}
+.introduction__items p {
+  margin: 0;
+  color: var(--Gray-800, #4a556c);
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.32px;
+}
