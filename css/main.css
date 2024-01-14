@@ -272,6 +272,7 @@ a:hover {
   width: 400px;
   background-color: #fff;
   gap: 15px;
+  padding: 40px;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
