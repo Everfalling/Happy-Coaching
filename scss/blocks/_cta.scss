@@ -1,0 +1,44 @@
+.cta {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1216px;
+  margin: 0 auto;
+  margin-bottom: 96px;
+
+  border-radius: 24px;
+  background: #faf8f6;
+  box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.04);
+}
+
+.cta__main {
+  box-sizing: border-box;
+  padding: 32px;
+
+  width: 608px;
+}
+
+.cta__title {
+  color: #333461;
+  font-family: $Kumbh;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.cta__text {
+  color: rgba(74, 85, 108, 0.5);
+
+  font-family: $Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.cta__button {
+  width: 250px;
+  padding: 9px 16px;
+  gap: 10px;
+
+  border-radius: 10px;
+}
