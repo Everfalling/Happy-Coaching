@@ -514,3 +514,131 @@ a:hover {
   gap: 10px;
   border-radius: 10px;
 }
+
+.footer__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 48px 80px;
+  background: #faf8f6;
+}
+
+.footer__header__title {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 38px;
+}
+
+.footer__header__text {
+  color: #4a556c;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer__header__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+
+.footer__header__input {
+  padding: 10px 14px;
+  color: rgba(74, 85, 108, 0.5);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  -webkit-transition: border-color 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out;
+}
+.footer__header__input:focus-visible {
+  outline: none;
+  border-color: #666;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+          box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.footer__header__button {
+  width: 150px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid #20ad96;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+          box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.footer__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px 112px;
+}
+.footer__main ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+  margin: 0;
+}
+.footer__main li {
+  list-style: none;
+}
+.footer__main a {
+  color: rgba(74, 85, 108, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer__main a:hover {
+  color: #20ad96;
+}
+.footer__main h3 {
+  color: #333461;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 20px;
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+.footer__main__logo {
+  width: 320px;
+  margin-right: 64px;
+}
+.footer__main__logo p {
+  color: rgba(74, 85, 108, 0.5);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer__main__pages {
+  margin-right: 32px;
+  width: 400px;
+}
+
+.footer__main__contact {
+  width: 400px;
+}
